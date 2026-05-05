@@ -1,6 +1,6 @@
 const CONFIG = {
 
-  SIMPLE_LOGO_IMG: 'https://img.notionusercontent.com/s3/prod-files-secure%2Fc16653f4-251e-81cb-97b5-0003e0c18e6d%2F702cf890-aa3d-46f0-996e-0e29b86db118%2F83c994ed-b155-4f37-8372-d70c01c2a564.png/size/w=2000?exp=1778059005&sig=fQLmxHkz3rvoe7oRWnf6HwNSyJA3FmoEpqF466JsCNU&id=357653f4-251e-80e8-bf38-d997f4093875&table=block&userId=354d872b-594c-81f7-b471-00028ef4427f&mtd=so',
+  SIMPLE_LOGO_IMG: '/avatar1.png',
   SIMPLE_TOP_BAR: true, // 显示顶栏
   SIMPLE_TOP_BAR_CONTENT: process.env.NEXT_PUBLIC_THEME_SIMPLE_TOP_TIPS || '',
   SIMPLE_LOGO_DESCRIPTION: process.env.NEXT_PUBLIC_THEME_SIMPLE_LOGO_DESCRIPTION || '<div>青山<br/>记录生活与思考</div>山高水长，慢慢走</div>',
