@@ -36,34 +36,36 @@ module.exports = {
   MUSIC_PLAYER_ORDER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_ORDER || 'list', // 默认播放方式，顺序 list，随机 random
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
-  	{
-        name: '告诉我(Live)',
-        artist: '陈绮贞',
-        url: 'https://music.163.com/song/media/outer/url?id=37240058.mp3',
-        cover:
-          'https://p1.music.126.net/haTIbpkwpBOz-pW2WGt37w==/3309530001047798.jpg?param=90y90'
-  	},
-  	{
-      name: '太聪明(Live)',
-      artist: '陈绮贞',
-      url: 'https://music.163.com/song/media/outer/url?id=37239070.mp3',
-      cover:
-  'https://p1.music.126.net/haTIbpkwpBOz-pW2WGt37w==/3309530001047798.jpg?param=90y90'
-  	},	
-      {
-        name: '天后',
-        artist: '卢卢快闭嘴',
-        url:  'https://music.163.com/song/media/outer/url?id=2101067848.mp3',
-        cover:
-  'https://p1.music.126.net/_TV32cQnDUP2SAtCPUEtoA==/109951169066704919.jpg?param=90y90'
-  	},	
-      {
-      name: '可你听见了',
-      artist: 'DOUDOU',
-      url: 'https://music.163.com/song/media/outer/url?id=2605274338.mp3',
-      cover:
-  'https://p1.music.126.net/7DO7fn5_G7CtSPrTtenvnw==/109951169759746430.jpg?param=90y90'
-  	}
+ {
+  name: '告诉我 (Live)',
+  artist: '陈绮贞',
+  url: 'https://music.163.com/song/media/outer/url?id=37240058.mp3',
+  cover: 'https://p1.music.126.net/haTIbpkwpBOz-pW2WGt37w==/3309530001047798.jpg?param=90y90'
+},
+{
+  name: '太聪明 (Live)',
+  artist: '陈绮贞',
+  url: 'https://music.163.com/song/media/outer/url?id=37239070.mp3',
+  cover: 'https://p1.music.126.net/haTIbpkwpBOz-pW2WGt37w==/3309530001047798.jpg?param=90y90'
+},
+{
+  name: '天后',
+  artist: '卢卢快闭嘴',
+  url: 'https://music.163.com/song/media/outer/url?id=2101067848.mp3',
+  cover: 'https://p1.music.126.net/_TV32cQnDUP2SAtCPUEtoA==/109951169066704919.jpg?param=90y90'
+},
+{
+  name: '可你听见了',
+  artist: 'DOUDOU',
+  url: 'https://music.163.com/song/media/outer/url?id=2605274338.mp3',
+  cover: 'https://p1.music.126.net/7DO7fn5_G7CtSPrTtenvnw==/109951169759746430.jpg?param=90y90'
+},
+{
+  name: 'Voice',
+  artist: 'Pay money To my Pain',
+  url: 'https://m701.music.126.net/20260511135506/4ab7b736a1baa753467235e830140ecd/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/34804351387/4c59/9323/a3fa/7597ae1c4524d239c00d6f8052b13d86.mp3',
+  cover: 'https://p2.music.126.net/5W2MpAWm5IvjWtVhwmBSlg==/109951169932483897.jpg?param=90y90'
+}
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
   MUSIC_PLAYER_METING_SERVER:
