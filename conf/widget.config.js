@@ -44,7 +44,7 @@ module.exports = {
           'https://p1.music.126.net/haTIbpkwpBOz-pW2WGt37w==/3309530001047798.jpg?param=90y90'
   	},
   	{
-      name: '告诉你(Live)',
+      name: '太聪明(Live)',
       artist: '陈绮贞',
       url: 'https://music.163.com/song/media/outer/url?id=37239070.mp3',
       cover:
